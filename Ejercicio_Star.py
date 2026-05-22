@@ -89,8 +89,6 @@ for i in range(1, 1001):
     salarios.append({
         "salario_id": i,
         "empleado_key": random.randint(1, 50),
-        "departamento_key": random.randint(1, 5),
-        "sede_key": random.randint(1, 5),
         "tiempo_key": random.randint(1, 12),
         "salario_base": salario_base,
         "bono": bono,
